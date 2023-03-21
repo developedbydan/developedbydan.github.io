@@ -401,162 +401,12 @@ footer p span a{
 
 
 
-@media screen and (max-width: 900px) {
-
-
-    .landing-page h1 {
-        font-size: 7em;
-    }
-
-    .landing-page h2 {
-        font-size: 2em;
-    }
-
-    .dine{
-        margin-top: 70px;
-        font-size: 1.5em;
-    }
-
-    .our-story {
-        padding: 50px 20px;
-    }
-
-    .description h2{
-        font-size: 3.8em;
-    }
-
-    .description p{
-        font-size: 1.9em;
-    }
-
-    .book-now{
-        margin-top: 40px;
-        font-size: 1.5em;
-    }
-
-    .description-menu{
-        max-width: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 100px;
-        max-height: 100px;
-        margin: 70px auto 5px auto;
-        /* background-color: aliceblue; */
-        
-    }
-
-    .description-menu h2{
-        font-size: 3.8em;
-        margin-bottom: 50px;
-        
-    }
-
-    .description-menu p{
-        font-size: 1.9em;
-        text-align: center;
-    }
-
-    .om-image p{
-        font-size: 2.2em;
-        margin-bottom: 70px;
-    }
-
-    .img-style1{
-        min-width: 500px;
-        min-height: 500px;
-    }
-
-    .description-holder2{
-        /* background-color: #4078c0; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    .image-container2{
-        /* background-color: wheat; */
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin: 10px auto 100px auto;
-    }
-
-   
-
-    .impression-page .impression-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .impression-wrapper{
-        margin-bottom: 100px;
-    }
-
-    
-
-    .impression{
-        max-width: 500px;
-        text-align: center;
-    }
-
-    .impression-page h2{
-        font-size: 3.8em;
-        margin: 70px auto 100px auto;
-
-    }
-
-    .impression h3{
-        font-size: 2.5em;
-    }
-    
-
-    .impression h4{
-        font-size: 2em;
-    }
-
-    .impression p{
-      font-size: 1.9em;
-    }
-
-    .info-page{
-        max-width: 100vh;
-    }
-
-    .info{
-        text-align: center;
-        margin-left: 160px
-    }
-
-
-    .info h2{
-        font-size: 3.8em;
-    }
-
-    .info h3{
-        font-size: 2em;
-
-    }
-
-    .info p {
-        font-size: 1.6em;
-    } 
-
-    footer p{
-        font-size: 1.3em;
-    }
-}
 
 
 
 
 
-
+/* 
 
 @media screen and (max-width: 768px) {
 
@@ -600,7 +450,7 @@ footer p span a{
         padding-top: 100px;
         max-height: 100px;
         margin: 70px auto 5px auto;
-        /* background-color: aliceblue; */
+        
         
     }
 
@@ -626,7 +476,6 @@ footer p span a{
     }
 
     .description-holder2{
-        /* background-color: #4078c0; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -635,7 +484,6 @@ footer p span a{
     }
 
     .image-container2{
-        /* background-color: wheat; */
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -724,7 +572,6 @@ footer p span a{
 
 
 
-/* CSS for smartphone screens */
 @media screen and (max-width: 480px) {
     
     .landing-page{
@@ -755,7 +602,6 @@ footer p span a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: #4078c0; */
         max-width: 100vh;
         overflow: hidden;
     }
@@ -801,7 +647,7 @@ footer p span a{
         padding-top: 100px;
         max-height: 100px;
         margin: 70px auto 5px auto;
-        /* background-color: aliceblue; */
+     
         
     }
 
@@ -827,7 +673,6 @@ footer p span a{
     }
 
     .description-holder2{
-        /* background-color: #4078c0; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -836,7 +681,6 @@ footer p span a{
     }
 
     .image-container2{
-        /* background-color: wheat; */
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -894,10 +738,7 @@ footer p span a{
         margin-bottom: 40px
     }
 
-    .info-image{
-        max-width: 600px;
-        max-height: 100%;
-    }
+
 
     .info h2{
         margin-top: 70px;
@@ -919,6 +760,7 @@ footer p span a{
 }
 
     
+    */
     
     
     
@@ -930,42 +772,4 @@ footer p span a{
     
     
     
-    
-    /* .landing-page h1 {
-        font-size: 6em;
-    }
-
-    .landing-page h2 {
-        font-size: 2em;
-    }
-
-    .our-story .description {
-        padding: 20px;
-    }
-
-    .description-holder2 {
-        flex-direction: column;
-    }
-
-    .description-menu {
-        text-align: center;
-    }
-
-    .image-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .impression-page .impression {
-        margin: 20px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info {
-        text-align: center;
-        margin: 20px;
-    } */
-
 
