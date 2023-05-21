@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+html{
+    scroll-snap-type:  y mandatory;
+}
+
 body{
     color: #171a20;
     font-family: 'M PLUS 1', sans-serif;;
@@ -121,6 +125,8 @@ section{
     background-size: cover;
     background-position: center center;
     position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
 } 
 
 @media (min-width: 768px){
