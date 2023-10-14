@@ -4,14 +4,18 @@
     padding: 0;
 }
 
+
 html {
     -webkit-tap-highlight-color: transparent;
 }
+
+
 
 body{
     background-color: rgb(145, 120, 228);
 
 }
+
 
 .card{
     position: absolute;
@@ -30,8 +34,8 @@ body{
     border: none;
     border-radius: 40px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
 }
+
 
 .quote-holder{
     display: flex;
@@ -47,9 +51,11 @@ body{
     font-size: 1.35rem;
 }
 
+
 #author{
     font-size: 1.05rem;
 }
+
 
 button{
     padding: 13px 20px;
@@ -66,8 +72,7 @@ button{
 
 
 
-
-button:hover{
+button:active{
     background-color: white;
     color: rgb(86, 43, 226);
     font-weight: bold;
@@ -91,56 +96,67 @@ button:hover{
 }
 
 
+
+
+
 /*RESPONSIVE*/
 
 
 
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+
     .card{
         width: 80%;
         height: 50%;
     }
+
+
     .twitter{
         bottom: 8%;
     }
 }
-
-
 
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+
     .card{
         width: 80%;
         height: 50%;
     }
+
+
     .twitter{
         bottom: 8%;
     }
 }
 
 
-
 @media screen and (max-width: 575px){
+
     .card{
         width: 80%;
         height: 45%;
     }
+
 
     #quote{
         font-size: 1.1rem;
         text-align: center;
     }
 
+
     #author{
         font-size: 0.9rem;
     
     }
 
+
     button{
         font-size: 0.7rem;
         padding: 10px 13px;
     }
+
 
     .twitter{
         bottom: 8%;
