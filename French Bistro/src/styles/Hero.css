@@ -1,0 +1,38 @@
+.hero{
+    min-height: 100vh;
+    min-height: 100lvh;
+    min-width: 100vw;
+    background-image: url(../assets/Home.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5.4rem;
+    color: white;
+}
+
+
+.hero h1{
+    font-size: 3.9rem;
+    font-family: "Hammersmith One", sans-serif;
+}
+
+.hero h2{
+    font-family: 'Solway', serif;
+    font-size: 1.2rem;
+}
+
+.hero button{
+    background-color: white;
+    color: black;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 1.1rem;
+    width: 150px;
+
+}
