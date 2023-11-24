@@ -1,0 +1,41 @@
+.testimonials{
+    background-color: black;
+    min-height: 100vh;
+    min-height: 100lvh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 1.8rem 1rem 1.8rem;
+}
+
+.testimonials h2{
+    font-size: 2.2rem;
+    font-family: "Hammersmith One", sans-serif;
+    max-height: 2.7rem;
+    background: linear-gradient(to bottom, transparent 60%, #f3bc69d3 40%);
+}
+
+.testimonial-wrapper h3{
+    margin-bottom: 0.8rem;
+}
+
+.testimonial-wrapper p{
+    margin-bottom: 0.8rem;
+}
+
+.testimonial-name{
+    font-weight: 500;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:389px){
+    .testimonials h2{
+        margin-bottom: 1rem;
+    }
+    .testimonials{
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+}
