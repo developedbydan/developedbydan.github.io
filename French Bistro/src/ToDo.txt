@@ -1,7 +1,0 @@
-1. Mobile view first!!!
-
-#. Get everything clean and tight in grid for larger sizes (THAT'S FOR RESPONSIVE)
-    2.1 Text size first
-    2.2 Image resizing
-
-2. Contact section!
